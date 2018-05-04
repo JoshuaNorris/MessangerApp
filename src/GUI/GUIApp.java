@@ -15,6 +15,7 @@ public class GUIApp extends Application {
 			Scene scene = new Scene(root);
 			primaryStage.setScene(scene);
 			primaryStage.show();
+			primaryStage.toBack();
 		} catch(Exception e) {
 			e.printStackTrace();
 			System.exit(1);

@@ -19,8 +19,8 @@
                <items>
                   <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
                      <children>
-                        <Button fx:id="addButton" layoutX="14.0" layoutY="6.0" mnemonicParsing="false" text="ADD" />
-                        <Button fx:id="goToButton" layoutX="79.0" layoutY="6.0" mnemonicParsing="false" text="Go To!" />
+                        <Button fx:id="addButton" layoutX="14.0" layoutY="6.0" mnemonicParsing="false" onAction="#addConversation" text="ADD" />
+                        <Button fx:id="goToButton" layoutX="79.0" layoutY="6.0" mnemonicParsing="false" onAction="#goToConversation" text="Go To!" />
                      </children>
                   </AnchorPane>
                   <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">

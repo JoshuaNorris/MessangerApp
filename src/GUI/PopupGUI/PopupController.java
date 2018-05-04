@@ -25,7 +25,7 @@ public class PopupController {
 	
 	static BadNews error;
 	
-	public boolean closed = false;
+	public static boolean closed = false;
 	
 	private String ipString;
 	
@@ -46,7 +46,7 @@ public class PopupController {
 	}
 	
 	public static boolean isClosed() {
-		return controller.closed;
+		return closed;
 	}
 	
 	@FXML
@@ -59,6 +59,7 @@ public class PopupController {
 	}
 	
 	public static void clear() {
-		controller.closed = false;
+		
+		closed = false;
 	}
 }

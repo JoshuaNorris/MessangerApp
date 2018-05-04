@@ -12,7 +12,7 @@ public class enterNamePopup {
 
 	public void run() throws IOException {
 		try { // fix this
-			BorderPane root = (BorderPane) FXMLLoader.load(GUIApp.class.getResource("enterNameGUI.fxml"));
+			BorderPane root = (BorderPane) FXMLLoader.load(enterNamePopup.class.getResource("enterNameGUI.fxml"));
 			Stage stage = new Stage();
 			stage.setTitle("Enter Your Name");
 			stage.setScene(new Scene(root));

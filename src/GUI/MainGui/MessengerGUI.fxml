@@ -34,7 +34,7 @@
                <children>
                   <ListView fx:id="messageList" layoutX="15.0" layoutY="58.0" prefHeight="375.0" prefWidth="310.0" />
                   <TextField fx:id="messageTextField" layoutX="19.0" layoutY="439.0" prefHeight="27.0" prefWidth="231.0" />
-                  <Button fx:id="sendButton" layoutX="265.0" layoutY="439.0" mnemonicParsing="false" text="Send!" />
+                  <Button fx:id="sendButton" layoutX="265.0" layoutY="439.0" mnemonicParsing="false" onAction="#sendMessage" text="Send!" />
                   <Label fx:id="name" layoutX="14.0" layoutY="23.0" prefHeight="23.0" prefWidth="105.0" text="Name">
                      <font>
                         <Font name="Al Tarikh Regular" size="16.0" />

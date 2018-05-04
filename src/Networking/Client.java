@@ -15,6 +15,7 @@ public class Client {
 		} catch (IOException e) {
 			System.out.println(e);
 		}
+		System.out.println(message);
 		byte[] bytes = message.getBytes();
 		OutputStream os = socket.getOutputStream();
 		os.write(bytes);

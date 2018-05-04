@@ -5,7 +5,6 @@ import java.util.ArrayList;
 
 import DataStructures.ConversationContainer;
 import DataStructures.MessageSender;
-import GUI.BadNews;
 import GUI.EnterNameGUI.enterNameController;
 import GUI.EnterNameGUI.enterNamePopup;
 import GUI.PopupGUI.PopupController;
